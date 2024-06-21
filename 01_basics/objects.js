@@ -15,6 +15,7 @@ const jsUser = {
     isLoggedin: "False",
     lastLoginDays: ["Monday", "Friday"]
 }
+//this is a singleton object
 
 // object declaration
 // key: values
@@ -42,3 +43,4 @@ jsUser.greetingTwo = function(){
 
 console.log(jsUser.greeting());
 console.log(jsUser.greetingTwo());
+
