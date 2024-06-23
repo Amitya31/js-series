@@ -16,7 +16,7 @@ console.log(instructor);
 //     "coursename": "js series",
 //     "price": "free"
 // }
-
+// json syntax in array
 [
     {},
     {},
