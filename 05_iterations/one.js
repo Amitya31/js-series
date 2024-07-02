@@ -38,4 +38,6 @@ for (let index = 0; index <=20 ; index++) {
   }
   console.log(`value of i = ${index}`);
 }
+// break will break the loop and comes out of the loop and stops the iterations
+// continue will break the loop but will not come out of the loop and will continue 
 
