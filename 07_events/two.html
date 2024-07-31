@@ -16,10 +16,16 @@
     //     console.log("Amit");
     // },3000)
     //Another way of writing the set timeout
-    const sayAmit = function(){
-        console.log("Amit")
+    const changeMe = function(){
+        document.querySelector('h1').innerHTML="best Js series";
     }
-    setTimeout(sayAmit,2000);// here i have given a refrence of the function i have'nt passed a function "sayAmit()"
-    document.querySelector('h1').innerHTML="best Js series";
+    const done = setTimeout(changeMe,2000);
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(done)
+        console.log('Stopped')
+    })
+    // here i have given a refrence of the function i have'nt passed a function "sayAmit()"
+    
 </script>
 </html>
